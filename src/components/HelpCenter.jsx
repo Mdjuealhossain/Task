@@ -4,8 +4,10 @@ const HelpCenter = () => {
   return (
     <div>
       <div className=" pb-12 border-b border-divider mb-8">
-        <h2 className=" text-3xl font-normal pb-6">Ready to get started?</h2>
-        <button className=" py-4 px-7  bg-regal-orange font-normal rounded-lg text-paper">
+        <h2 className=" text-3xl font-normal font-proxima pb-6">
+          Ready to get started?
+        </h2>
+        <button className=" py-4 px-7  bg-regal-orange font-thin font-proxima rounded-lg text-paper">
           Sign me up
         </button>
       </div>

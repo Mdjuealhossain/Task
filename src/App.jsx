@@ -11,7 +11,7 @@ function App() {
         <div className=" col-span-6 bg-paper">
           <CustomizPlan />
         </div>
-        <div className=" col-span-2 bg-dark-light">
+        <div className=" col-span-2 ">
           <Plan />
         </div>
       </div>
