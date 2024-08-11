@@ -4,11 +4,11 @@ import HelpCenter from "./HelpCenter";
 
 const Footer = () => {
   return (
-    <div className=" bg-blue text-paper">
+    <div className=" bg-blue text-paper max-sm:px-3 md:px-0">
       <div className="container mx-auto pt-footer-top pb-10 font-proxima">
-        <div className="  grid grid-cols-5 pb-14 ">
-          <div className=" flex gap-4 flex-col">
-            <a href="#" className=" pb-8  font-lato font-normal">
+        <div className="  grid  md:grid-cols-5 grid-cols-1 md:pb-14 pb-8 gap-4 ">
+          <div className=" flex  md:gap-4 gap-2 flex-col">
+            <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
               Software
             </a>
 
@@ -37,8 +37,8 @@ const Footer = () => {
               Request a feature
             </a>
           </div>
-          <div className=" flex gap-4 flex-col">
-            <a href="#" className=" pb-8  font-lato font-normal">
+          <div className=" flex  md:gap-4 gap-2 flex-col">
+            <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
               Learning center
             </a>
 
@@ -55,8 +55,8 @@ const Footer = () => {
               Blog
             </a>
           </div>
-          <div className=" flex gap-4 flex-col">
-            <a href="#" className=" pb-8  font-lato font-normal">
+          <div className=" flex  md:gap-4 gap-2 flex-col">
+            <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
               More
             </a>
 
@@ -70,32 +70,32 @@ const Footer = () => {
               Status
             </a>
           </div>
-          <div className=" flex gap-4 flex-col">
-            <a href="#" className=" pb-8  font-lato font-normal">
-              Software
+          <div className=" flex  md:gap-4 gap-2 flex-col">
+            <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
+              Company
             </a>
 
             <a href="#" className="  font-lato font-normal">
-              Features overview
+              About us
             </a>
             <a href="#" className="  font-lato font-normal">
-              Solutions
+              Reviews
             </a>
             <a href="#" className="  font-lato font-normal">
-              Free time tracking app
+              Customer stories
             </a>
             <a href="#" className="  font-lato font-normal">
-              Integrations
+              Careers
             </a>
             <a href="#" className="  font-lato font-normal">
-              Integrations
+              Press
             </a>
           </div>
           <div>
             <HelpCenter />
           </div>
         </div>
-        <div className=" grid grid-cols-12">
+        {/* <div className=" grid grid-cols-12">
           <div className=" col-span-2">
             <img src="/public/img/Group 427319793.png" />
           </div>
@@ -117,7 +117,7 @@ const Footer = () => {
               GDPR compliance
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

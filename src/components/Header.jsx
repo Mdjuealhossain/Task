@@ -5,10 +5,13 @@ import logo from "../../public/img/Group 427319793.png";
 const Header = () => {
   return (
     <header className=" bg-slate-500">
-      <div className="container mx-auto flex justify-between items-center pt-10 pb-8">
-        <img src={logo} alt="Logo" className=" mr-3" />
+      <div className="container mx-auto flex justify-between items-center pt-4  md:pt-10 md:pb-8 pb-3 px-3 md:px-0 ">
+        <img src={logo} alt="Logo" className=" hidden md:inline mr-3" />
+        <div>
+          <img src={logo} alt="Logo" className="  md:hidden mr-3" />
+        </div>
 
-        <nav className="space-x-8 flex flex-row justify-center items-center">
+        <nav className="space-x-8 hidden  md:flex flex-row justify-center items-center">
           <div className=" flex justify-center items-center flex-row gap-1">
             <p className=" font-helvetica">Features</p>
             <img src="/public/icons/Vector.svg" />
@@ -30,6 +33,12 @@ const Header = () => {
             Log In
           </button>
         </nav>
+        <img
+          className=" md:hidden"
+          src="/public/icons/menu.svg"
+          height={32}
+          width={32}
+        />
       </div>
     </header>
   );

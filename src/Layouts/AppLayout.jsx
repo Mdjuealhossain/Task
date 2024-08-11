@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       {/* Header */}
       <Header />
       {/* Main Content */}
-      <main className="flex-grow p-6">{children}</main>
+      {/* <main className="flex-grow p-6">{children}</main> */}
       {/* Footer */}
       <Footer />
     </div>

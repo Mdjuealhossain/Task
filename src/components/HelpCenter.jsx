@@ -3,8 +3,8 @@ import React from "react";
 const HelpCenter = () => {
   return (
     <div>
-      <div className=" pb-12 border-b border-divider mb-8">
-        <h2 className=" text-3xl font-normal font-proxima pb-6">
+      <div className=" md:pb-12 pb-4 border-b border-divider mb-8">
+        <h2 className=" text-3xl font-normal font-proxima md:pb-6 pb-4">
           Ready to get started?
         </h2>
         <button className=" py-4 px-7  bg-regal-orange font-thin font-proxima rounded-lg text-paper">
