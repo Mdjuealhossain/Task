@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className=" bg-blue text-paper max-sm:px-3 md:px-0">
       <div className=" container max-w-xl  mx-auto pt-footer-top pb-10 font-proxima">
-        <div className="  grid  md:grid-cols-5 grid-cols-1 md:pb-14 pb-8 gap-4 ">
+        <div className="  grid  md:grid-cols-5 grid-cols-1 md:pb-14 pb-8 max-sm:gap-4 md:gap-0  ">
           <div className=" flex  md:gap-4 gap-2 flex-col">
             <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
               Software
@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" grid grid-cols-12 gap-4">
-          <div className=" md:col-span-2 col-span-12">
+          <div className=" max-sm:flex justify-center items-center md:inline md:col-span-2 col-span-12">
             <img src=" /img/Group 427319793.png" />
           </div>
           <div className=" md:col-span-3 col-span-12">
