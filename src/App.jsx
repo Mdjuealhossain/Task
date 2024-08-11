@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <div className="  container max-w-xl  gap-4  mx-auto grid grid-cols-12">
-        <div className="  md:col-span-8 col-span-12 bg-paper">
+        <div className="  md:col-span-8 col-span-12 bg-paper rounded-lg">
           <CustomizPlan />
         </div>
         <div className=" md:col-span-4  col-span-12">

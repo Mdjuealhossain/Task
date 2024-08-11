@@ -7,7 +7,7 @@ const CustomizPlan = () => {
   const [isActive, setIsActive] = useState("1");
 
   return (
-    <div className=" ">
+    <div className=" md:pb-8 pb-4">
       <div className=" flex md:py-4 py-2  md:px-6 px-3  items-center max-sm:justify-center md:justify-start gap-6  border-b border-Bdivider">
         <img src=" /icons/ep_back.svg" />
         <h2 className=" text-xl">Customize Your Plan </h2>
