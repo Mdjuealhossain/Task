@@ -4,7 +4,7 @@ import { featureData } from "../staticData";
 
 const Features = () => {
   return (
-    <div className="px-6">
+    <div className="md:px-6 px-3">
       <p className=" pb-6">Choose Feature</p>
       <div className=" flex flex-col gap-4">
         {featureData.map((data) => {

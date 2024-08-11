@@ -8,10 +8,10 @@ function App() {
   return (
     <Layout>
       <div className=" container gap-4  mx-auto grid grid-cols-8">
-        <div className=" col-span-6 bg-paper">
+        <div className="  md:col-span-6 col-span-8 bg-paper">
           <CustomizPlan />
         </div>
-        <div className=" col-span-2 ">
+        <div className=" md:col-span-2  col-span-8">
           <Plan />
         </div>
       </div>

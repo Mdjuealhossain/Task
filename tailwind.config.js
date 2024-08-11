@@ -11,6 +11,7 @@ export default {
       },
       spacing: {
         "footer-top": "3.75rem",
+        128: "28.313rem",
       },
     },
     colors: {

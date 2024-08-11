@@ -2,7 +2,7 @@ import React from "react";
 
 const Plan = () => {
   return (
-    <div className="bg-dark-light rounded-lg ">
+    <div className="bg-dark-light rounded-lg max-sm:mx-3 md:mx-0  max-sm:mt-2 md:pt-0">
       <div className=" py-4 px-6  border-b border-Bdivider">
         <h2 className=" text-xl">Plan </h2>
       </div>
@@ -19,7 +19,7 @@ const Plan = () => {
           <img src="/public/icons/plan.svg" />
           <p className=" text-base">Lorem Ipsum Dolor ipsum omit</p>
         </div>
-        <div className=" flex   gap-4 w-[254px]">
+        <div className=" flex   gap-4 ">
           <img src="/public/icons/plan.svg" />
           <p className=" text-base">
             Lorem Ipsum Dolor ipsum omit Notor Choose

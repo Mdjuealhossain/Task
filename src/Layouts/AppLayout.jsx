@@ -1,4 +1,5 @@
 import React from "react";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -8,7 +9,7 @@ const Layout = ({ children }) => {
       {/* Header */}
       <Header />
       {/* Main Content */}
-      {/* <main className="flex-grow p-6">{children}</main> */}
+      <main className="pb-6">{children}</main>
       {/* Footer */}
       <Footer />
     </div>

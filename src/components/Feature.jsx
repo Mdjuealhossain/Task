@@ -9,9 +9,9 @@ const Feature = ({ description, title, id, icon }) => {
   const label = "Add Module";
 
   return (
-    <div className=" px-6 py-3 bg-dark-white rounded-lg">
-      <div className=" flex items-center justify-between">
-        <div className="max-w-[453px] w-full ">
+    <div className=" md:px-6 px-3 md:py-3 py-2 bg-dark-white rounded-lg">
+      <div className=" flex items-center justify-between gap-2">
+        <div className=" max-w-128 w-full ">
           <div className=" flex items-center gap-4 pb-2 ">
             <img src={icon} alt="empl" />
             <p className=" text-base font-medium">{title}</p>
