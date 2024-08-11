@@ -91,9 +91,7 @@ const Footer = () => {
               Press
             </a>
           </div>
-          <div>
-            <HelpCenter />
-          </div>
+          <div>{/* <HelpCenter /> */}</div>
         </div>
         <div className=" grid grid-cols-12 gap-4">
           <div className=" max-sm:flex justify-center items-center md:inline md:col-span-2 col-span-12">
