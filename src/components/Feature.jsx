@@ -1,6 +1,7 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
-const Feature = ({ description, title, id, icon }) => {
+const Feature = ({ description, title, icon }) => {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleChange = () => {
@@ -33,6 +34,13 @@ const Feature = ({ description, title, id, icon }) => {
       </div>
     </div>
   );
+};
+
+Feature.propTypes = {
+  description: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default Feature;

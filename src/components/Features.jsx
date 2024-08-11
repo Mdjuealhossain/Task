@@ -1,4 +1,5 @@
 import React from "react";
+
 import Feature from "./Feature";
 import { featureData } from "../staticData";
 
