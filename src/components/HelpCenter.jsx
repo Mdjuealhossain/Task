@@ -7,7 +7,7 @@ const HelpCenter = () => {
         <h2 className=" text-3xl font-normal font-proxima md:pb-6 pb-4  ">
           Ready to get start?
         </h2>
-        <button className=" py-4 px-7  bg-regal-orange font-thin font-proxima rounded-lg text-paper">
+        <button className=" md:py-4 max-sm:py-2  px-7  bg-regal-orange font-thin font-proxima rounded-lg text-paper">
           Sign me up
         </button>
       </div>

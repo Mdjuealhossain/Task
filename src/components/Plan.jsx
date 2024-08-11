@@ -26,7 +26,7 @@ const Plan = () => {
           </p>
         </div>
       </div>
-      <button className=" flex justify-center items-center font-semibold text-paper py-3 w-full bg-regal-orange rounded-br-lg rounded-bl-lg">
+      <button className=" flex justify-center items-center font-semibold text-paper md:py-3 py-2 w-full bg-regal-orange rounded-br-lg rounded-bl-lg">
         Contact Sales
       </button>
     </div>
