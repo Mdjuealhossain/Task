@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="  grid  md:grid-cols-5 grid-cols-1 md:pb-14 pb-8 max-sm:gap-4 md:gap-0  ">
           <div className=" flex  md:gap-4 gap-2 flex-col">
             <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">
-              Software
+              Softwaree
             </a>
 
             <a href="#" className="  font-lato font-normal">
