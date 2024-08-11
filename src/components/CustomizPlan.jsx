@@ -9,7 +9,7 @@ const CustomizPlan = () => {
   return (
     <div className=" ">
       <div className=" flex md:py-4 py-2  md:px-6 px-3  items-center max-sm:justify-center md:justify-start gap-6  border-b border-Bdivider">
-        <img src="/public/icons/ep_back.svg" />
+        <img src=" /icons/ep_back.svg" />
         <h2 className=" text-xl">Customize Your Plan </h2>
       </div>
       <div className=" pt-4 pb-6 md:px-6 px-3">

@@ -14,19 +14,19 @@ const HelpCenter = () => {
       <p className=" text-2xl font-normal mb-7">Follow us</p>
       <div className=" flex  gap-6 items-center">
         <a href="#">
-          <img src="/public/icons/Vector4.svg" />
+          <img src=" /icons/Vector4.svg" />
         </a>
         <a href="#">
-          <img src="/public/icons/Vector (1).svg" />
+          <img src=" /icons/Vector (1).svg" />
         </a>
         <a href="#">
-          <img src="/public/icons/twiter.svg" />
+          <img src=" /icons/twiter.svg" />
         </a>
         <a href="#">
-          <img src="/public/icons/Shape.svg" />
+          <img src=" /icons/Shape.svg" />
         </a>
         <a href="#">
-          <img src="/public/icons/instragram.svg" />
+          <img src=" /icons/instragram.svg" />
         </a>
       </div>
     </div>

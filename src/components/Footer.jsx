@@ -95,18 +95,18 @@ const Footer = () => {
             <HelpCenter />
           </div>
         </div>
-        {/* <div className=" grid grid-cols-12">
-          <div className=" col-span-2">
-            <img src="/public/img/Group 427319793.png" />
+        <div className=" grid grid-cols-12 gap-4">
+          <div className=" md:col-span-2 col-span-12">
+            <img src=" /img/Group 427319793.png" />
           </div>
-          <div className=" col-span-3">
+          <div className=" md:col-span-3 col-span-12">
             <a href="#" className=" text-base font-poppins  font-normal">
               Copyright © 2024 Netsoft Holdings, LLC 11650 Olio Road, Suite
               #1000 - 193 Fishers, IN 46037
             </a>
           </div>
-          <div className=" col-span-4"></div>
-          <div className="col-span-3  flex items-center gap-8">
+          <div className=" col-span-4 hidden md:inline"></div>
+          <div className="md:col-span-3 col-span-12  flex items-center md:gap-8 gap-4">
             <a href="#" className=" text-base  font-lato font-normal">
               Terms
             </a>
@@ -117,7 +117,7 @@ const Footer = () => {
               GDPR compliance
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

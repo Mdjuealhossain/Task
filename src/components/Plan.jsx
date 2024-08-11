@@ -8,19 +8,19 @@ const Plan = () => {
       </div>
       <div className="px-6 pt-4 flex flex-col gap-3 pb-14">
         <div className=" flex  gap-4">
-          <img src="/public/icons/plan.svg" />
+          <img src=" /icons/plan.svg" />
           <p className=" text-base">Lorem Ipsum Dolor</p>
         </div>
         <div className=" flex  gap-4">
-          <img src="/public/icons/plan.svg" />
+          <img src=" /icons/plan.svg" />
           <p className=" text-base">Lorem Ipsum Dolor ipsum</p>
         </div>
         <div className=" flex  gap-4">
-          <img src="/public/icons/plan.svg" />
+          <img src=" /icons/plan.svg" />
           <p className=" text-base">Lorem Ipsum Dolor ipsum omit</p>
         </div>
         <div className=" flex   gap-4 ">
-          <img src="/public/icons/plan.svg" />
+          <img src=" /icons/plan.svg" />
           <p className=" text-base">
             Lorem Ipsum Dolor ipsum omit Notor Choose
           </p>
