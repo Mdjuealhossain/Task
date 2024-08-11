@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Select from "react-dropdown-select";
 
-const Billing = () => {
+const Billing = ({ question1, question2, question3 }) => {
   const [selected, setSelected] = useState([]);
 
   const handleChange = (values) => {
@@ -10,7 +10,7 @@ const Billing = () => {
 
   return (
     <div className=" flex flex-col gap-4 pt-6">
-      <p>How Many Manager Do you Want ?</p>
+      <p>{question1}</p>
       <div className=" max-w-[384px]">
         <Select
           options={options}
@@ -29,7 +29,7 @@ const Billing = () => {
           dropdownGap={5}
         />
       </div>
-      <p>How Many Employee Do you Need ?</p>
+      <p>{question2}</p>
       <div className=" max-w-[384px]">
         <Select
           options={options}
@@ -48,7 +48,7 @@ const Billing = () => {
           dropdownGap={5}
         />
       </div>
-      <p>How Many Storage Do you Need ?</p>
+      <p>{question3}</p>
       <div className=" max-w-[384px]">
         <Select
           options={options}

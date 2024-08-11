@@ -41,11 +41,20 @@ const CustomizPlan = () => {
           </button>
         </div>
         {isActive === "1" ? (
-          <Billing title="fgbfdgvb" />
+          <Billing
+            question1="How Many Manager Do you Want ?"
+            question2="How Many Employee Do you Need ?"
+            question3="How Many Storage Do you Need ?"
+          />
         ) : isActive === "2" ? (
-          <Billing title="hi" />
+          <Billing  question1="How Many Manager Do you Want valid ?"
+          question2="How Many Employee Do you Need valid ?"
+          question3="How Many Storage Do you Need valid ?"/>
         ) : (
-          <Billing title="fuck" />
+          <Billing  question1="How Many Manager Do you Want nonthly?"
+          question2="How Many Employee Do you Need monthly
+           ?"
+          question3="How Many Storage monthly?" />
         )}
       </div>
       <Features />
