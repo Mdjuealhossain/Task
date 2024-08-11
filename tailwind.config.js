@@ -11,7 +11,6 @@ export default {
       },
       spacing: {
         "footer-top": "3.75rem",
-        128: "28.313rem",
       },
     },
     colors: {
@@ -83,6 +82,14 @@ export default {
       md: "0.250rem",
       lg: ".5rem",
       xl: "1rem",
+    },
+    maxWidth: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+      128: "28.313rem",
     },
   },
   plugins: [],

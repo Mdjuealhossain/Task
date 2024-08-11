@@ -7,11 +7,11 @@ import Plan from "./components/Plan";
 function App() {
   return (
     <Layout>
-      <div className=" container gap-4  mx-auto grid grid-cols-8">
-        <div className="  md:col-span-6 col-span-8 bg-paper">
+      <div className="  container max-w-xl  gap-4  mx-auto grid grid-cols-12">
+        <div className="  md:col-span-8 col-span-12 bg-paper">
           <CustomizPlan />
         </div>
-        <div className=" md:col-span-2  col-span-8">
+        <div className=" md:col-span-4  col-span-12">
           <Plan />
         </div>
       </div>

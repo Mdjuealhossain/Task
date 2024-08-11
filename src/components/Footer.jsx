@@ -5,7 +5,7 @@ import HelpCenter from "./HelpCenter";
 const Footer = () => {
   return (
     <div className=" bg-blue text-paper max-sm:px-3 md:px-0">
-      <div className="container mx-auto pt-footer-top pb-10 font-proxima">
+      <div className=" container max-w-xl  mx-auto pt-footer-top pb-10 font-proxima">
         <div className="  grid  md:grid-cols-5 grid-cols-1 md:pb-14 pb-8 gap-4 ">
           <div className=" flex  md:gap-4 gap-2 flex-col">
             <a href="#" className=" md:pb-8 pb-4  font-lato font-normal">

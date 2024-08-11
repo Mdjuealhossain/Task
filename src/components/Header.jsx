@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className=" bg-slate-500">
-      <div className="container mx-auto flex justify-between items-center pt-4  md:pt-10 md:pb-8 pb-3 px-3 md:px-0 ">
+      <div className=" container max-w-xl  mx-auto flex justify-between items-center pt-4  md:pt-10 md:pb-8 pb-3 px-3 md:px-0 ">
         <img src="/img/Group 427319793.png" alt="Logo" className=" mr-3" />
         <nav className="space-x-8 hidden  md:flex flex-row justify-center items-center">
           <div className=" flex justify-center items-center flex-row gap-1 cursor-pointer">
